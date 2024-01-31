@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.forms {
+    min-height: 900px;
+    background-image: url(../img/GettyImages-1389862392.jpg);
+    background-size: contain;
+    background-position: center;
+    background-size: cover;
+}
+
+.title {
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    background-color: orange;
+    width: 400px;
+    height: 600px;
+    box-shadow: 12px 12px 2px 1px rgba(50, 50, 116, 0.2);
+    border-radius: 2%;
+}
+
+.feed-form {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    padding-left: 100px;
+}
+
+#description {
+    resize: none;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+}
+
+input {
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.submit,
+#submit {
+    position: relative;
+    bottom: 10px;
+    top: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    width: 200px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.sex {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    position: absolute;
+    left: 550px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 30px;
+    top: 100px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+
+
+

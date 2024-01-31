@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    height: 100vh;
+    background-color: #ffa200;
+}
+
+.red,
+.green,
+.blue,
+.black {
+    float: left;
+    width: 25vw;
+    height: 60vh;
+    margin-top: 10%;
+    padding: 100px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.black {
+    background-color: black;
+}
+
+/* Lab1-2 */
+
+.wrap {
+    border: 3px solid red;
+    height: 1005px;
+    
+}
+
+.cap {
+    background-color: violet;
+    height: 300px;
+}
+.cap .txt {
+    text-align: center;
+    color: cornsilk;
+}
+
+.block_two {
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 792px;
+    margin: 40px auto;
+}
+
+.block_three {
+    background-color: black;
+    height: 100px;
+    width: 390px;
+    position: relative;
+    top: 50px;
+    left: 200px;
+    right: 200px;
+}
+p {
+    text-align: center;
+}
+
+.menu_b {
+    background-color: grey;
+    height: 200px;
+}
+
+.block_four,
+.block_five,
+.block_six,
+.block_seven {
+    float: left;
+    width: 25%;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.block_four {
+    background-color: red;
+}
+
+.block_five {
+    background-color: orange;
+}
+
+.block_six {
+    background-color: aqua;
+}
+
+.block_seven {
+    background-color: yellow;
+}
+
+.left_block,
+.center_block,
+.right_block {
+    float: left;
+    height: 500px;
+    width: 33.33%;
+    margin: 0;
+    padding: 0;
+}
+
+.left_block {
+    background-color: green;
+}
+
+.center_block {
+    background-color: aqua;
+}
+
+.right_block {
+    background-color: blue;
+}
+
+.left_block .left {
+    height: 411.5px;
+    background-color: orange;
+    width: 70%;
+    margin: 70px auto;
+}
+
+.a_left,
+.b_left {
+    display: relative;
+    float: left;
+    width: 50%;
+    height: 88.2%;
+    margin-top: 30px;
+}
+.left_block .left .a_left {
+    background-color: pink;
+}
+
+.left_block .left .b_left {
+    background-color: yellow;
+}
+
+.cent_left,
+.a_center,
+.cent_right {
+    width: 33.33%;
+    height: 411.5px;
+    margin: 70px auto;
+    float: left;
+}
+
+.cent_left {
+    background-color: red;
+}
+
+.a_center {
+    background-color: yellow;
+}
+
+.cent_right {
+    background-color: orange;
+}
+
+.a_center .a_c, .a_center .b_c {
+    float: left;
+    width: 50%;
+}
+
+.a_center .a_c {
+    background-color: orange;
+    height: 350px;
+    margin-top: 43.5px;
+}
+
+.a_center .b_c {
+    background-color: red;
+    height: 180px;
+    margin-top: 213.5px;
+}
+
+.b_blue, .b_yellow, .b_orange {
+    float: left;
+    width: 33.33%;
+}
+
+.b_blue {
+    
+    background-color: aqua;
+    height:150px;
+    margin-top: 331.5px;
+    
+}
+
+.b_yellow {
+    background-color: yellow;
+    height: 250px;
+    margin-top: 180px;
+}
+
+.b_orange {
+    background-color: orange;
+    height: 250px;
+    margin-top: 85px;
+}
+
+.txt_top {
+    
+    float: right;
+    margin-top: 50px;
+    width: 70%;
+    background-color: black;
+    color: aqua;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.txt_bottom {
+    float: left;
+    margin-top: 100px;
+    width: 70%;
+    background-color: black;
+    color: aqua;
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+

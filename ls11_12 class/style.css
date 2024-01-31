@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        "Open Sans",
+        "Helvetica Neue",
+        sans-serif;
+}
+
+
+.container {
+    min-width: 290px;
+    max-width: 1200px;
+}
+body,
+.list,
+.article,
+.list_f,
+.one,
+.two,
+.lst,
+.font-family,
+.ft {
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.header {
+    list-style-type: none;
+    height: 50px;
+    margin-top: 30px;
+    
+}
+
+.lst {
+    display: inline;
+    margin-left: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: blue;
+}
+
+.article .one {
+    float: left;
+    width: 50%;
+    
+}
+
+.footer {
+    
+    min-width: 290px;
+    width: 100%;
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+
+.ft {
+    
+    display: inline;
+    margin-left: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+}
+
+.cat {
+    padding: 20px;
+    width: 45%;
+}
+
+.scroll {
+    height: 300px;
+    overflow: scroll;
+    padding: 20px;
+    
+}
+
+@media screen and (min-width:290px) and (max-width:500px) {
+
+    .header {
+        width: 20%;
+        float: left;
+        height: 100%;
+        
+    }
+
+    .footer {
+        width: 100%;
+        float: left;
+    }
+    .ft {
+        float: left;
+        width: 10%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .article {
+        width: 10%;
+        float: left;
+    }
+    
+}
+
+@media screen and (min-width:500px) and (max-width:800px) {
+
+}
+
+@media screen and (min-width:800px) and (max-width:1400px) {
+
+}
+

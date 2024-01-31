@@ -1,0 +1,76 @@
+.list {
+  display: flex;
+  justify-content: center;
+}
+a:hover {
+  color: greenyellow;
+  transition: 1s;
+  font-size: 20px;
+}
+.click {
+  position: absolute;
+  right: 20px;
+  color: #20bf48;
+  background-color: #0d1940;
+  width: 100px;
+  height: 50px;
+  border-radius: 5%;
+  text-align: center;
+  cursor: pointer;
+  padding: 2px;
+}
+h1 {
+  color: #fff;
+  font-size: 20px;
+  background-color: #3c4fe3;
+  width: 200px;
+  text-align: center;
+  margin: 10px auto;
+}
+h2 {
+  color: #fff;
+  font-size: 20px;
+  background-color: black;
+  width: 150px;
+  text-align: center;
+  margin: 10px auto;
+}
+.article {
+  margin: 10px;
+  padding: 20px;
+}
+.article div span {
+  background-color: #0d1940;
+  color: #fff;
+}
+.block h3 {
+  background-color: #0d1940;
+  color: #fff;
+  width: 300px;
+  text-align: center;
+  margin: 10px auto;
+}
+.block .button_one {
+  position: absolute;
+  right: 20px;
+  color: #20bf48;
+  background-color: #0d1940;
+  width: 100px;
+  height: 50px;
+  border-radius: 5%;
+  text-align: center;
+  cursor: pointer;
+  padding: 2px;
+}
+.block .button_two {
+  position: absolute;
+  right: 20px;
+  color: #20bf48;
+  background-color: #0d1940;
+  width: 100px;
+  height: 50px;
+  border-radius: 5%;
+  text-align: center;
+  cursor: pointer;
+  padding: 2px;
+}

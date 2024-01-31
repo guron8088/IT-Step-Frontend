@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <a href="./page_2.html"> Переход до другого завдання </a>
+    <div class="forms">
+        
+        <div class="container">
+            <h2 class="title">
+                Для переходу <br> на наступну сторінку<br>введіть свої дані
+            </h2>
+            <form action="#" class="feed-form">
+                <input name="name" placeholder="Імʼя" type="text" required>
+                <input name="password" placeholder="Пароль" type="password" required>
+                <input name="repeat" placeholder="Повторити пароль" type="password" id="repeat" required>
+                <label for="dr">Дата народження</label>
+                <input name="b-day" placeholder="День народження" type="date" name="dr" required>
+                <input name="sex" placeholder="Стать" type="text" id="female" required>
+                <div class="sex">
+                    <input type="radio" name="sex" id="Man"> Чоловіча
+    
+                    <input type="radio" name="sex" id="Woman"> Жіноча
+    
+                </div>
+                <input name="Age" placeholder="Вік" type="number" id="Age" required>
+                <textarea name="description" placeholder="Опис" id="description" cols="60" rows="10"></textarea>
+                <input type="submit" value="Відправити" id="submit">
+                
+                <!-- <input placeholder="Опис" type="text"  id="desc"> -->
+    
+                <!-- <button class="submit" onclick="alert" >Submit</button> -->
+                <!-- <input type="button" value="Submit" name="Submit" id="submit"> -->
+    
+                <!-- <input type="reset"> -->
+    
+            </form>
+            
+        </div>
+
+    </div>
+
+</body>
+
+</html>

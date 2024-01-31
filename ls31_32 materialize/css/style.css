@@ -1,0 +1,80 @@
+.list {
+    display: flex;
+    justify-content: center;
+}
+
+a:hover {
+    color: greenyellow;
+    transition: 1s;
+    font-size: 20px;
+}
+
+
+.blue_block {
+    
+    height: 200px;
+    width: 200px;
+    
+    
+}
+
+.red_block {
+    position: absolute;
+    left: 500px;
+    bottom: 200px;
+    height: 250px;
+    width: 250px;
+    
+    
+}
+
+.green_block {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    height: 300px;
+    width: 300px;
+    
+    
+}
+
+.img {
+    width: 50%;
+}
+
+
+.p_row {
+    padding: 10px;
+}
+
+.new_t {
+    
+    border-collapse: collapse;
+    border: 1px solid rgb(43, 42, 42);
+    background-color: rgba(139, 139, 255, 0.269);
+}
+
+.new_t, .n_t, .head_t, .ht, .t_b, .t_r, .t_d, .tfoot, .tr, .ft {
+    border: 1px solid black;
+
+    padding: 5px;
+}
+
+.ft, .head_t {
+   background-color: bisque;
+    
+}
+
+.txt {
+    padding: 0;
+    margin: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+.t-1 {
+    font-weight: 400;
+    font-style: italic;
+}

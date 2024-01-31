@@ -1,0 +1,71 @@
+
+.story {
+    
+    margin-right: 200px;
+
+}
+
+aside {
+    display: block;
+    float: right;
+    background: #f0f0f0;
+    width: 200px;
+    margin-top: -240px;
+}
+
+.red_box {
+    height: 200px;
+    width: 200px;
+    background-color:red;
+}
+
+.green_box {
+    height: 200px;
+    width: 200px;
+    background-color:green;
+
+}
+
+#id_red {
+    height: 200px;
+    width: 200px;
+    background-color:red;   
+}
+
+#id_green {
+    height: 200px;
+    width: 200px;
+    background-color:green;
+}
+
+.sub {
+    color:aqua;
+    background-color: blue;
+}
+
+.sup {
+    color: red;
+    background-color: darkgrey;
+}
+
+.yellow_box {
+    background-color: yellow;
+    padding: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+.orange_box {
+    background-color: orange;
+    padding: 60px;
+    width: 70px;
+    height: 70px;
+}
+
+.gray_box {
+    background-color: gray;
+    padding: 120px;
+    width: 90px;
+    height: 90px;
+}
+

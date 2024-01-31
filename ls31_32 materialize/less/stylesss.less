@@ -1,0 +1,85 @@
+@headers: #fff;
+@hp: 10px auto;
+@size: 20px;
+@align: center; 
+@backcolor: #0d1940;
+
+.list {
+    display: flex;
+    justify-content: center;
+}
+
+a:hover {
+    color: greenyellow;
+    transition: 1s;
+    font-size: 20px;
+}
+
+
+.click {
+    position: absolute;
+    right: 20px;
+    color: #20bf48;
+    background-color: @backcolor;
+    width: 100px;
+    height: 50px;
+    border-radius: 5%;
+    text-align: @align;
+    cursor: pointer;
+    padding: 2px;
+    
+
+
+}
+
+h1 {
+    
+    color: @headers;
+    font-size: @size;
+    background-color: rgb(60, 79, 227);
+    width: 200px;
+    text-align: @align;
+    margin: @hp;
+
+    
+}
+
+h2 {
+    color: @headers;
+    font-size: @size;
+    background-color: black;
+    width: 150px;
+    text-align: @align;
+    margin: @hp;
+
+}
+
+.article {
+    margin: 10px;
+    padding: 20px;
+}
+
+.article div span {
+    background-color: @backcolor;
+    color: @headers;
+    
+
+}
+
+.block h3 {
+    background-color: @backcolor;
+    color: @headers;
+    width: 300px;
+    text-align: @align  ;
+    margin: @hp;
+}
+
+
+.block .button_one {
+    .click();
+   
+}
+
+.block .button_two {
+    .click();
+}

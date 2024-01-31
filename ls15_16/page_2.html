@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter form</title>
+    <link rel="stylesheet" href="./page_2/style.css">
+</head>
+
+<body>
+
+    <a href="./page_3.html"> Переход до третього завдання </a>
+
+    <form action="#" class="page_2">
+
+        <h2 class="phone">
+            Оберіть пристрій
+        </h2>
+        <select name="device" id="device" >
+            <option value="1">Телефон</option>
+            <option value="2">Ноутбук</option>
+            <option value="3">Пилесос</option>
+            <option value="4">Зарядка</option>
+        </select>
+        <hr>
+        <h2 class="watt">
+            Потужність пристрою
+        </h2>
+        <input class="watt" type="checkbox" name="power" id="15w"><label for="15w">15w</label>
+        <input class="watt" type="checkbox" name="power" id="25w"> <label for="25w">25w</label>
+        <input class="watt" type="checkbox" name="power" id="65w"><label for="65w">65w</label>
+        <input class="watt" type="checkbox" name="power" id="100w"><label for="100w">100w</label>
+        <input class="watt" type="checkbox" name="power" id="200w"><label for="200w">200w</label>
+        <hr>
+        <h2 class="brand">
+            Марка пристрою
+        </h2>
+        <input type="checkbox" name="brand" id="samsung"> <label for="samsung">Samsung</label>
+        <input type="checkbox" name="brand" id="lg"> <label for="lg">LG</label>
+        <input type="checkbox" name="brand" id="asus"> <label for="asus">ASUS</label>
+        <input type="checkbox" name="brand" id="lenovo"> <label for="lenovo">Lenovo</label>
+        <hr>
+        <h2 class="option">
+            Сортування
+        </h2>
+        <select name="sorting" id="sort">
+            <option value="1">від дешевих</option>
+            <option value="2">від дорогих</option>
+            <option value="3">по рейтингу</option>
+        </select>
+        <hr>
+        <h2 class="brand_name">
+            Назва моделі
+        </h2>
+        <input type="text" placeholder="Введіть назву" required id="brand_name">
+        
+        <input type="submit" value="Пошук" id="sub">
+        
+    </form>
+
+</body>
+

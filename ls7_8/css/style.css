@@ -1,0 +1,134 @@
+* {
+    margin: 0 auto;
+    font-family: monospace;
+}
+
+#name {
+    color:  rgba(0, 17, 255, 0.496);
+    font-size: 30px;
+    background-color: bisque;
+    border-color: black;
+}
+
+.table_t {
+    margin-top: 20px;
+    table-layout: fixed;
+    width: 800px;
+    height: 500px;
+    border-collapse: collapse;
+    border: 3px solid rgb(43, 42, 42);
+    background-color: rgba(137, 137, 138, 0.511);
+    
+}
+
+th {
+    background-color: orange;
+    width: 100px;
+}
+
+th, td {
+    border: 3px solid;
+}
+
+td {
+    text-align: center;
+}
+
+.header {
+    
+    width:auto;
+}
+.menu {
+    list-style-type: none;
+    display: flex;
+    height: 40px;
+}
+.li_list {
+
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+
+
+
+
+.header {
+    display: block;
+    padding: 0;
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    
+}
+
+
+a {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: antiquewhite;
+    transition: 0.5s;
+}
+
+a:hover {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #04c94c;
+    transition: 0.5s;
+    
+}
+
+/*Homework*/
+
+.task_1 {
+    margin-top: 30px;
+    height: 600px;
+    border: 3px solid black;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+
+
+.ts_1:hover, .ts_22:hover {
+    background-color: blue;
+    transition: 1s;
+    color: azure;
+    font-size: 10px;
+    
+}
+
+
+.ts_22_left {
+    background-color: rgba(0, 8, 255, 0.85);
+    font-size: 40px;
+
+}
+
+.ua {
+    display: block;
+    transform: rotate(-100grad);
+    color: white;
+}
+.ts_22:nth-last-child(4) {
+    width: 300px
+
+}
+
+.ts_21:nth-child(2n) {
+    background-color: yellow;
+}
+
+
+/*2 завдання*/
+
+
+

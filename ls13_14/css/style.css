@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+/* task 1 */
+
+.one_p {
+    width: 40%;
+    position: relative;
+    left: 60px;
+    right: 100px;
+    top: 20px;
+    bottom: 10px;
+    background-color: blanchedalmond;
+    
+}
+
+.two .cat {
+    position: fixed;
+    width: 50%;
+    right: 20px;
+    top: 80px;
+}
+
+.two_index {
+    position: absolute;
+    width: 20%;
+    right: 30px;
+    top: 80px;
+    z-index: 1;
+    
+    background-color: black;
+    opacity: 0.5;
+    
+}
+
+.two_index .indx {
+    color: rgb(0, 255, 255);
+    font-size: 16px;
+    font-family: monospace;
+    opacity: initial;
+}
+
+.three {
+    width: 50%;
+    position: absolute;
+    right: 10px;
+    bottom: 30px;
+    background-color: blanchedalmond;
+}
+
+/* task 2 */
+
+.new_t {
+    margin: 20px auto;
+    table-layout: fixed;
+    width: 70%;
+    height: 60%;
+    border-collapse: collapse;
+    border: 1px solid rgb(43, 42, 42);
+    background-color: rgba(139, 139, 255, 0.269);
+}
+
+.new_t, .n_t, .head_t, .ht, .t_b, .t_r, .t_d, .tfoot, .tr, .ft {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+.ft, .head_t {
+   background-color: bisque;
+    height: 50px;
+    
+}
+
+
+
+/* task 3 */
+
+
+.blocks_section {
+    overflow: inherit;
+    background-color: black;
+    height: 900px;
+}
+
+.blokcs {
+    
+    padding: 20px;
+}
+
+
+.blokcs .blue_block {
+    
+    
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin-top: 20px;
+
+    
+    
+
+    
+    
+    
+}
+
+.blokcs .red_block {
+    
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: -100px 0px 0px 200px;
+    
+    
+
+}
+
+.blokcs .green_block {
+    
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    margin: -200px 0px 0px 500px;
+    
+
+                                                          
+
+}
+
+/* task 4 */
+
+
+
+.text {
+   background-color: #ac5535;
+   padding: 10px;
+   margin: 10px;
+}
+
+.text_second {
+    background-color: #3a559b;
+    padding: 10px;
+    margin: 10px;
+}
+
+.text_third {
+    background-color: #6c2adf;
+    padding: 10px;
+    margin: 10px;
+}
+
+span {
+    color: #000000;
+    background-color: #ff0000;
+    font-size: medium;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.o_p, .p_o, .p_three {
+    padding: 20px;
+    color:azure;
+    
+}
+
+/* Task 5 */ 
+.video {
+    padding: 40px 300px;
+}
+.music  {
+    
+    font-size: 10px;
+    padding: 20px 600px;
+    height: 100px;
+    background-color: #ac5535;
+    
+}
+
+.img {
+    padding: 20px 300px;
+}
+.cat {
+   
+    width: 65vw;
+    
+    
+}
+
+/* task 6 */
+.homework {
+    background-color: rgba(63, 63, 255, 0.865);
+    height: 60px;
+    padding: 20px;
+    border: 1px solid black;
+    
+}
+
+ul li {
+    display: inline;
+}
+
+li .link_list {
+    text-decoration: none;
+    padding: 10px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    color:#000000;
+    transition: 1s;
+}
+
+li .link_list:hover {
+    color: rgb(255, 255, 255);
+    transition: 1s;
+    border-color: white;
+}
+
+/* task 7 */
+
+.txt {
+    padding: 20px;
+    background-color: bisque;
+    border: 1px solid black;
+}
+
+.txtp, .qwerty, .lorem {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #1767fc;
+}
+
+
+
+

@@ -1,0 +1,170 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.container_menu {
+    margin-bottom: -10px;
+    background-color:black;
+    
+}
+
+.mylist_menu {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    list-style-type: none;
+}
+
+.menu_li {
+    padding: 20px;
+}
+
+.menu_link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.receipt {
+    background-color: rgba(220, 204, 109, 0.4);
+    margin: 0;
+    
+}
+
+
+.receipt_main {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+.receipt_submain {
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+}
+
+p {
+   
+    font-size: 20px;
+    line-height: 32px;
+    position: relative;
+    margin: 10px 16px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+
+img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    opacity: 100%;
+}
+
+.receip_mainthree {
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.meet {
+    padding: 10px;
+}
+
+.meet_list {
+    text-align: center;
+    border-style: solid;
+    border: 4px 4px 4px 4px;
+    border-radius: 20px;
+    width: 10%;
+    list-style-position: inside;
+    list-style-type: none;
+    font-size: 20px;
+    margin: 10px;
+
+}
+
+
+
+.media {
+    background-color: rgba(0, 1, 1, 0.5);
+}
+.video {
+    margin:0;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.picture {
+    margin:0;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.music {
+    margin:0;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+audio {
+    border: 5px;
+    display: block;
+    padding:0 0 50px 30px;
+    margin: auto;
+    width: 50%;
+}
+
+.hw1 {
+    display: block;
+    text-align: center;
+}
+.hw_1 {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 28px;
+    color: black;
+}
+
+.hwbtn {
+    background-color:blue;
+    border-radius:30px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    color: white;
+}
+
+.hw2 {
+    display: block;
+    text-align: center;
+}
+.hw_2 {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 28px;
+    color: black;
+}
+
+.hwbtnsec {
+    background-color:blue;
+    border-radius:30px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    color: white;
+}
+

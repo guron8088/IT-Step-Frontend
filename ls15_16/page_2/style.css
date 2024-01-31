@@ -1,0 +1,40 @@
+.page_2 {
+    background-color: #9cafff;
+    border-radius: 10px;
+    border: 2px solid gray;
+    padding: 10px;
+    width: 25%;
+}
+
+#device, #sort, #brand_name {
+    width: 100%;
+    background-color:cornsilk;
+    border: none;
+}
+
+#sub {
+    background-color: black;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 20px;
+    cursor:pointer;
+}
+
+a {
+    position: absolute;
+    left: 550px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 30px;
+    top: 100px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+

@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+ sudo.container {
+    display: grid;
+    grid-template-rows: auto;
+    border: 2px solid red;
+ }
+
+ .box_1 {
+    background-color: violet;
+    grid-template-rows: 1fr;
+    text-align: center;
+    padding: 20px;
+ }
+
+
+ .inside_box_1 {
+    grid-template-rows: 1fr;
+    margin: 30px 130px;
+    padding: 30px 50px;
+    background-color: rgb(255, 255, 255);
+    
+ }
+
+.footer {
+    grid-template-rows: 1fr;
+    margin: 40px 130px;
+    padding: 50px 50px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.box_2 {
+    
+    display: grid;
+    background-color: grey;
+    text-align: center;
+    padding-bottom: 20px;
+    
+    
+}
+
+.four_boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+
+}
+
+.red_box {
+    background-color: red;
+    padding: 25%;
+    
+}
+
+.orange_box {
+    background-color: orange;
+    padding: 25%;
+    
+
+}
+
+.aqua_box {
+    background-color: aqua;
+    padding: 25%;
+    
+}
+
+.yellow_box {
+    background-color: yellow;
+    padding: 25%;
+    
+} 
+
+
+
+.wrap_block {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 50vh;
+} 
+.left_block { 
+    background-color: green;
+    text-align: center;
+    
+}
+
+.centr_block {
+    background-color: aqua;
+    
+    text-align: center;
+}
+
+.right_block {
+    background-color: blue;
+    
+    text-align: center;
+}
+
+
+.in_left {
+    display: grid;
+    grid-template-rows: 1fr;
+    background-color: orange;
+    margin: 80px 50px 0 50px;
+    height: 70vh;
+}
+
+.left_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.a-left, .b-left {
+    
+    height: 50vh;
+}
+
+.a-left {
+    background-color: pink;
+    
+}
+
+.b-left {
+    background-color: yellow;
+}
+
+
+.in_box_centr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.red_centr, .yellow_centr, .orange_centr {
+    margin-top: 80px;
+    height: 70vh;
+}
+
+.centr_block .red_centr {
+    background-color: red;
+}
+
+.centr_block .yellow_centr {
+    display: grid;
+    background-color: yellow;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.centr_block .yellow_centr .a-c {
+    margin-top: 154.5px;
+    height: 386.5px;
+    background-color: orange;
+}
+
+.centr_block .yellow_centr .b-c {
+    margin-top: 404.5px;
+    height: 136.5px;
+    background-color: red;
+}
+
+
+.centr_block .orange_centr {
+    background-color: orange;
+}
+
+
+.right_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.right_block .aqua_left {
+   
+    background-color: aqua;
+    height: 150px;
+    margin-top: 470px;
+}
+
+.right_block .yellow_centr {
+    background-color: yellow;
+    height: 250px;
+    margin-top: 330px;
+
+
+    
+}
+
+.right_block .orange_left {
+    background-color: orange;
+    height: 250px;
+    margin-top: 230px;
+}
+
+.text_block {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+}
+
+.text1, .text2 {
+
+    background-color: black;
+    color: aqua;
+    font-size: 20px;
+    font-style: italic;
+    width: 50%;
+}
+
+
+.text1 {
+    position: relative;
+    top: 150px;
+    
+}
+
+.text2 {
+    position: relative;
+    top: 50px;
+    right: 0;
+    left: 50%;
+    
+    
+}
+
+
+
+
+
+
